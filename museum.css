@@ -1,0 +1,45 @@
+/* Funko Museum CSS File */
+
+body { font-family: verdana, arial, sans-serif;
+       font-size: 16px;
+       line-height: 1.5;
+       margin: 0;
+       padding: 0;
+       background: #B0C4DE;} /* Background colour cool but not too dark */
+
+
+h1, h2, h3 {font-family: Copperplate, Papyrus, fantasy; }
+
+h1 {font-size: 200%; 
+     text-align: center; }
+
+h2 {font-size: 130%;
+     text-align: left; }
+
+h3 {font-size: 120%; 
+     text-align: left;
+      background-color: #FFEFD5;  }
+
+header {border: 3px;
+	border-style: groove;
+	background-color: #FFA07A;}
+
+article { float: left; 
+	width: 800px; 
+        border: 1px;
+	border-style: groove;
+	background-color: #FFEFD5;  }
+
+nav {float: right;
+	width: 500px; }
+
+
+ul {background: #FFA07A;
+    padding: 20px;
+    list-style-position: inside;   }
+
+ul li {background: #FFEFD5; 
+       padding: 5px; }
+
+table, th, td {border: 3px solid black;
+	        border-collapse: collapse;} /* Border is collapsed because the borders are dificult to look at 							otherwise */
